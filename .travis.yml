@@ -1,4 +1,8 @@
-install: make -C algorithm
+
+language: cpp
+os:
+- linux
 compiler:
   - clang
   - gcc
+install: make -C algorithm

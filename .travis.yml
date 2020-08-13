@@ -10,7 +10,7 @@ script : make -C algorithm
 
 deploy:
   provider: releases
-  api_key: $GITHUB_OAUTH_TOKEN #93a1d895585c21885a7a08a838448e3198fcbea9
+  api_key: $GITHUB_OAUTH_TOKEN 
   file: "algorithm/solver/2/bin/libpocketcube.so"
   skip_cleanup: true
   draft: true

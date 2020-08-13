@@ -1,13 +1,4 @@
-install: make get-deps
+install: make -C algorithm
 compiler:
   - clang
   - gcc
-matrix:
-  include:
-    - os: osx
-      osx_image: xcode8
-      env:
-        - MATRIX_EVAL="CC=gcc-4.9 && CXX=g++-4.9"
-
-before_install:
-    - eval "${MATRIX_EVAL}"

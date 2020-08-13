@@ -1,10 +1,17 @@
 
 language: cpp
 os:
-- linux
+- osx
 compiler:
-  - clang
   - gcc
 
 script : make -C algorithm
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 93a1d895585c21885a7a08a838448e3198fcbea9  # Set in the settings page of your repository, as a secure variable 93a1d895585c21885a7a08a838448e3198fcbea9
+  keep_history: true
+  on:
+    branch: master
 

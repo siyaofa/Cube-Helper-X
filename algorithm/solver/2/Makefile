@@ -1,7 +1,7 @@
 CKOCIEMBA_SRC = PocketCube.cpp
 CKOCIEMBA_INCLUDE = .
 CFLAGS = 
-CXXFLAGS = -std=c++11 -O3 -shared
+CXXFLAGS = -std=c++11 -O3 -shared -fPIC
 BINDIR = bin
 BIN = libpocketcube.so
 

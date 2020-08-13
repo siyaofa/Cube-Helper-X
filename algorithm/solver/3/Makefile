@@ -1,6 +1,6 @@
 CKOCIEMBA_SRC = ckociemba/coordcube.c ckociemba/cubiecube.c ckociemba/facecube.c ckociemba/search.c
 CKOCIEMBA_INCLUDE = ckociemba/include
-CFLAGS = -std=c99 -O3 -shared
+CFLAGS = -std=c99 -O3 -shared -fPIC
 BINDIR = bin
 BIN = libkociemba.so
 

@@ -7,11 +7,12 @@ compiler:
 
 script : make -C algorithm
 
+
 deploy:
-  provider: pages
+  provider: releases
+  api_key: 93a1d895585c21885a7a08a838448e3198fcbea9
+  file: "algorithm/solver/2/bin/libpocketcube.so"
   skip_cleanup: true
-  github_token: 93a1d895585c21885a7a08a838448e3198fcbea9  # Set in the settings page of your repository, as a secure variable 93a1d895585c21885a7a08a838448e3198fcbea9
-  keep_history: true
   on:
-    branch: master
+    tags: true
 

@@ -4,6 +4,8 @@
 
 ![](pic/android_rubik_cube_auto_recongization.gif)
 
+# [中文](README.zh-CN.md)
+
 # Cube-Helper-X
 An Universal App For Cube Solution. 
 

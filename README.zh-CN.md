@@ -75,6 +75,7 @@
 
 感谢以下参与项目的人：
 
+![](https://avatars2.githubusercontent.com/u/16128216?s=40&v=4)
 
 ## 使用许可
 
